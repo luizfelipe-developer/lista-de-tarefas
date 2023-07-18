@@ -12,7 +12,7 @@ body{
     background-position: center;
 }
 .container{
-    background-color: #e3e3e3;
+    background-color: #f2b0ef;
     max-width: 500px;
     border-radius: 10px;
     padding: 20px;
@@ -25,6 +25,7 @@ body{
     width: 300px;
     height: 35px;
     padding-left: 10px;
+    font-size: 1.2rem;
 }
 .button-add-task{
     border: none;
@@ -64,6 +65,7 @@ body{
 p{
     padding: 0 15px;
     text-align: start;
+    font-size: 1em;
 }
 img{
     height: 25px;
@@ -75,5 +77,18 @@ img{
 }
 .done{
     background-color: #8fac55;
+    color: #fff;
     text-decoration: line-through;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-weight: 700;
+}
+footer .redes{
+    text-decoration: none;
+    color: #047cf5;
+    margin: 10px 15px 10px 0;
 }
